@@ -1,143 +1,129 @@
-*{
-    margin: 0px;
-   
+* {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0px;
 }
 /* Header farbe weite und breite wurden hier bestimmt*/
-header{
-    height: 90px;
-    width: 100%;
-    background-color:#494a72;
-    
+header {
+  height: 90px;
+  width: 100%;
+  background-color: #494a72;
 }
-
 
 /*navigationsbar*/
 
-
-
-#navbutton .button{
-    color: yellow;
-    margin: 10px;
-    padding: 5px;
+.basket i{
+  position: relative;
+  top:20px;
+  left: 100px;
+  font-size: 30px;
+  padding:10px;
+  border: 2px solid black;
+  border-radius: 50%;
 }
 
-a{
-    text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   
-    
-}   
-
-#navbutton {
-    list-style-type: none;
+#menu ul>li{
+  list-style-type: none;
+  padding:0px;
 }
 
-.hover:hover{
-    color:red;
+a {
+  color: white;
+  text-decoration: none;
 }
 
-
-
-#navbutton li{
-    background: linear-gradient(to right, black,red);
-    color: #fff;
-    border: none;
-    border-radius: 50% 0px 50% 0px;
-    width: 100px;
-    height: 50px;
-    float:right;
-    margin:10px;
-    padding-top: -50px;
-    text-align: center;
-
+.hover:hover {
+  color: red;
 }
+
+#menu{
+  text-align: center;
+  float: right;
+  position: relative;
+  top: -20px;
+}
+
+ #menu li {
+  display: inline-block;
+  background: linear-gradient(to right, black, red);
+  color: #fff;
+  border: none;
+  border-radius: 50% 0px 50% 0px;
+  margin: 0px 10px;
+  width: 70px;
+  height: 30px;
+  line-height: 2;
+}
+
 
 /*Spalte mit dem Home button*/
 
-.home{
-    padding: 30px;
-    color:red;
-   
+.home {
+  padding:30px;
+  position: relative;
+  left:120px;
+  top:10px;
+  color: red;
+  font-size: 30px;
 }
-
-
 
 /*Container1*/
 
-#categories{
-    list-style-type: none;
+#container1 {
+  display: block;
+  margin-left: 30px;
+  background-color: #3c3c3c;
+  width: 400px;
+  height: 150px;
+  color: white;
+  padding: 20px;
 }
 
-#container1{
-    background-color:#3c3c3c;
-    width: 300px;
-    height: 150px;
-    margin-left: 20px;
-    padding: 20px 20px;
-    color:white;
+#container1 h1 {
+  color: white;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
-
-#container1 h1{
-    color:white;
-    margin-bottom: 15px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    line-height: 2rem;
-   
-}
-#container1 li{
-    list-style-type: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-
-}
-
-
-a{
-    color:white;
-    margin-left: -40px;
-    line-height: 2rem;
+  
+.productlist{
+  list-style-type: none;
+  margin-left: -40px;
 }
 
 /*Container2*/
 
-#container2{
-    background-color: #ecced0;
-    width: 60%;
-    height: 400px;
-    border: 5px groove brown;
-    margin-left: 30%;
-    margin-top: -12rem;
-    padding: 30px;
-    margin-bottom: 50px;
-    
+#container2 {
+  background-color: #ecced0;
+  width: 55%;
+  height: 400px;
+  border: 5px groove brown;
+  margin:-12rem 80px 50px 5px;
+  padding: 30px;
+  float:right;
 }
 
-p{
-    margin-bottom: 30px;
+#container2 img {
+  margin-left: 30%;
 }
 
-#container2 img{
-    margin-left:30%;
-}
-#container2 h1>p{
-    line-height: 2rem;
-    margin: auto;
+#article,h1, p{
+  margin-bottom: 10px;
 }
 
 /*Footer*/
 
-footer{
-    height: 4rem;
-    width: 100%;
-    background-color:#3c3c3c;
+footer {
+  position: fixed;
+  bottom:0px;
+  height: 4rem;
+  width: 100%;
+  background-color: #3c3c3c;
 }
-footer p{
-    color:white;
-    text-align: center;
-    padding-top: 20px;
 
-    
+footer p {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
 }
 
 
